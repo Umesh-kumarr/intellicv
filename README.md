@@ -1,4 +1,4 @@
-Demo video: https://youtu.be/4C4R1uMHhns?si=g3KvdcCcWHLuJCYy
+
 
  <h1>IntelliCV: AI-Powered Resume Builder</h1>
   <p>Welcome to IntelliCV, an AI-powered resume builder designed to simplify the process of creating professional resumes.</p>
