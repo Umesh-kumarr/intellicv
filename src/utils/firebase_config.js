@@ -5,14 +5,15 @@ import { getStorage } from "firebase/storage";
 
 
 const firebaseConfig = {
-  apiKey: "AIzaSyAbSvIZOwtR8PaltA41zN_4jzlJYaJyfSo" ,
-  authDomain: import.meta.env.VITE_FIREBASE_AUTH_DOMAIN,
-  databaseURL: import.meta.env.VITE_FIREBASE_DATABASE_URL,
-  projectId: import.meta.env.VITE_FIREBASE_PROJECT_ID,
-  storageBucket: import.meta.env.VITE_FIREBASE_STORAGE_BUCKET,
-  messagingSenderId: import.meta.env.VITE_FIREBASE_MESSAGING_SENDER_ID,
-  appId: import.meta.env.VITE_FIREBASE_APP_ID,
-  measurementId: import.meta.env.VITE_FIREBASE_MEASUREMENT_ID
+  apiKey: "AIzaSyAbSvIZOwtR8PaltA41zN_4jzlJYaJyfSo",
+  authDomain: "ai-resume-builder-199fc.firebaseapp.com",
+  databaseURL: "https://ai-resume-builder-199fc-default-rtdb.firebaseio.com",
+  projectId: "ai-resume-builder-199fc",
+  storageBucket: "ai-resume-builder-199fc.firebasestorage.app",
+  messagingSenderId: "883288943312",
+  appId: "1:883288943312:web:b9718be3e2ea06fe280cd5",
+  measurementId: "G-T3H73TDD0J"
+
 };
 // const firebaseConfig = {
 //   apiKey: "AIzaSyBlg1QKjkXxUXFAfoc_biWw-515Yw5iqTo",
