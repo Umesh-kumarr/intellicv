@@ -39,15 +39,15 @@ const Dashboard = () => {
   };
 
   return (
-    <div>
+    <div className="min-h-screen bg-white dark:bg-gray-900">
         <Header />
       <div className="p-10 md:px-20 lg:px-32">
-        <h1 className="font-bold text-3xl">My Resume</h1>
-        <p>Start Creating AI Resume for your next job role</p>
+        <h1 className="font-bold text-3xl text-gray-900 dark:text-white">My Resume</h1>
+        <p className="text-gray-600 dark:text-gray-400">Start Creating AI Resume for your next job role</p>
         <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-5 mt-10 gap-5">
           <AddResume />
           {loading ? (
-            <div>Loading...</div>
+            <div className="text-gray-600 dark:text-gray-400">Loading...</div>
           ) : resumeList.length > 0 ? (
             resumeList.map((resume) => (
               <div key={resume.id}>
@@ -55,8 +55,8 @@ const Dashboard = () => {
               </div>
             ))
           ) : (
-            <div className="flex m-0 h-full items-center justify-center border border-black rounded-xl border-dotted border-dotted">
-              <p>No resume found</p>
+            <div className="flex m-0 h-full items-center justify-center border border-gray-300 dark:border-gray-600 rounded-xl border-dotted">
+              <p className="text-gray-600 dark:text-gray-400">No resume found</p>
             </div>
           )}
         </div>
